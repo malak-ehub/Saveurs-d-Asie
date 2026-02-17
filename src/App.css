@@ -1,0 +1,50 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 80px;
+  min-height: calc(100vh - 80px);
+}
+
+/* Boutons génériques */
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #d4145a 0%, #fbb034 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 20, 90, 0.3);
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #d4145a;
+  border: 2px solid #d4145a;
+}
+
+.btn-secondary:hover {
+  background-color: #d4145a;
+  color: white;
+}
+
+.btn-large {
+  padding: 16px 32px;
+  font-size: 1.1rem;
+}
