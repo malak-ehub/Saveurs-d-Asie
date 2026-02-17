@@ -24,7 +24,7 @@ const Commande = () => {
 
   useEffect(() => {
     loadPlats();
-  }, []);
+  }, [loadPlats]);
 
   const loadPlats = async () => {
     try {

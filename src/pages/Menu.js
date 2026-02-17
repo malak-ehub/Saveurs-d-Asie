@@ -21,7 +21,7 @@ const Menu = () => {
 
   useEffect(() => {
     loadPlats();
-  }, []);
+  }, [loadPlats]);
 
   const loadPlats = async () => {
     try {
